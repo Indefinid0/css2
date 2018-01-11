@@ -1,0 +1,42 @@
+{
+    "room":                     "to triste kkj",
+    "author":                   "Plebéia",
+    "css":                      "https://rawgit.com/Undfind/css/master/vv1.css",
+    "icon":                     "https://imgur.com/AvF6XjV.png",
+    "rules": {
+        "allowAutorespond":     true,
+        "allowAutowoot":        true,
+        "allowAutojoin":        false,
+        "allowAutograb":        true,
+        "allowSmartVote":       true,
+        "allowEmotes":          true,
+        "allowShowingMehs":     true,
+        "forceSmartVote":       false
+    },
+    "ccc":{  
+      "admin":                null,
+      "ambassador":           null,
+      "host":                "#b74991",
+      "cohost":               "#45aff7",
+      "manager":              null,
+      "bouncer":              null,
+      "rdj":                  null,
+      "subscriber":           null,
+      "silversubscriber":     null,
+      "friend":               null,
+      "user":                 null
+   },
+   "images":{  
+      "background":           "https://imgur.com/3JnQXms.jpg",
+      "playback":             null,
+      "admin":                null,
+      "ambassador":           null,
+      "host":                 null,
+      "cohost":               "https://imgur.com/oWsyNcY.png",
+      "manager":              "https://imgur.com/sMcHEQH.png",
+      "bouncer":              null,
+      "rdj":                  null,
+      "subscriber":           null,
+      "silversubscriber":     null
+    }
+}
