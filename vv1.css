@@ -1390,7 +1390,7 @@ background-position: 9px 9px;
 }
 
 .icon-site-logo {
-  background: url('https://imgur.com/eCJy3NJ.png');
+  background: url('#');
   repeat scroll 0% 0% transparent;
   background-position: 0px 0px;
 }
