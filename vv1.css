@@ -1809,7 +1809,15 @@ i.icon.icon-current-dj {
     background-position: 2px center;
     background-size: 15px auto;
 }    
-
+/* Burkyst */
+[data-cid^="20574971-"] .badge-box .bdg,
+#user-rollover.id-20574971 .badge-box .bdg {
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: url("https://media.giphy.com/media/zQQ9xjxp2iXok/giphy.gif");
+}	
 /* Descrição */
 
 #room-settings .general-settings .value {
