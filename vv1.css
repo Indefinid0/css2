@@ -3,6 +3,9 @@
 @import url("https://rawgit.com/Indefinid0/css2/master/button-vote-circle.css");
 /* Larga isto quieto, não é da sua conta */
 
+#room-bar .icon-room {
+    background: url("https://imgur.com/yYlFnxm.png");
+}
 
 #origemscript { 
   position: absolute; 
