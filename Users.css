@@ -1,0 +1,132 @@
+/* Usuários */ 
+[data-cid^="24738397-"] .msg .from .un {
+    position: relative;
+    left:-1px;
+    padding-left:21px;
+    background-image: url('https://rocketdock.com/images/screenshots/Untitled-1-47.png');
+    background-repeat: no-repeat;
+    background-position: 2px center;
+    background-size: 15px auto;
+}    
+
+#chat .cm[data-cid^="-"] .un {
+  color: #ff69b4;
+}
+
+/* # */
+#chat [data-cid^="-"] .bdg {
+  background: url('http://s28.postimg.org/jq06oqo3d/XKubbdm.png') !important;
+  background-position: 0px 0px;
+}
+
+/* # */
+#chat [data-cid^="-"] .bdg {
+  background: url('http://s21.postimg.org/j688u2av7/WALL_E_24.png') !important;
+  background-position: 0px 0px;
+}
+
+/* # */
+#chat [data-cid^="-"] .bdg {
+  background: url('http://i.imgur.com/G5IOw5n.png') !important;
+  background-position: 0px 0px;
+}
+/* Plebéia */
+[data-cid^="5842493-"] .badge-box .bdg,
+#user-rollover.id-5842493 .badge-box .bdg {
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: url("https://i.imgur.com/3MtowTJ.jpg");
+}
+/* Priscila1995 */
+[data-cid^="32325924-"] .badge-box .bdg,
+#user-rollover.id-32325924 .badge-box .bdg {
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: url("https://imgur.com/WLGB7Ro.jpg");
+}
+/* Plebéia/2 */
+#user-rollover.id-5842493:before{
+    content: 'My Makeup';
+    top: 119px;
+    left: 135px;
+    position: absolute;
+    display: inline-block; 
+    padding: 0 3px;
+    color: #f78fd4;
+    background: linear-gradient(rgba(0, 102, 102, 0.2), rgba(0, 102, 102, 0.2));
+    border-radius: 3px;
+    font-size: 10px;
+}
+/* !Special Agent Burking */
+[data-cid^="24738397-"] .badge-box .bdg,
+#user-rollover.id-24738397 .badge-box .bdg {
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: url("https://i.imgur.com/kCgTBaI.png");
+}	
+/* Plebéia/3 */
+[data-cid^="5842493-"] .msg .from .un {
+    position: relative;
+    left:-1px;
+    padding-left:21px;
+    background-image: url('https://lh5.ggpht.com/UDUAkziBgTbwjHKHGk72lleRH4R1l_iy2bhChiYlkpC5S_OmGo_zqPvsdkQCsFv84Q=h1080');
+    background-repeat: no-repeat;
+    background-position: 2px center;
+    background-size: 15px auto;
+}    
+/* Burkyst */
+[data-cid^="20574971-"] .badge-box .bdg,
+#user-rollover.id-20574971 .badge-box .bdg {
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: url("https://media.giphy.com/media/zQQ9xjxp2iXok/giphy.gif");
+}	
+/* Background Users */
+.cm.message.deletable.id-24738397::before,
+.cm.message.id-24738397::before {
+	background-image: url(https://imgur.com/g3frJmM.png);	/* !Special Agent Jubileu BACKGROUND */
+	background-repeat: no-repeat;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .2;
+	z-index: -1;
+	background-position-y: -10px;
+	background-position-x: right;
+}
+.cm.message.deletable.id-5842493::before,
+.cm.message.id-5842493::before {
+	background-image: url(https://imgur.com/Pm9RxNz.png);	/* Plebéia BACKGROUND */
+	background-repeat: no-repeat;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .2;
+	z-index: -1;
+	background-position-y: -10px;
+	background-position-x: right;
+}
+#chat [data-cid^="24738397-"] .from {
+	background: linear-gradient(to right, rgba(0, 0, 0,.12), transparent);
+	padding: 7px;
+	border-radius: 15px;
+}
+#chat [data-cid^="5842493-"] .from {
+	background: linear-gradient(to right, rgba(0, 0, 0,.12), transparent);
+	padding: 7px;
+	border-radius: 15px;
+}
