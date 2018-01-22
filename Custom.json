@@ -2,7 +2,7 @@
     "room":                     "to triste kkj",
     "author":                   "Plebéia",
     "css":                      "https://rawgit.com/Indefinid0/css2/master/vv1.css",
-    "icon":                     "https://imgur.com/yYlFnxm.png",
+    "icon":                    null,
     "rules": {
         "allowAutorespond":     true,
         "allowAutowoot":        true,
