@@ -1543,60 +1543,7 @@ em {
 	background: rgba(11, 12, 14, 0.60));}
 #user-panel .score {
 	background: rgba(28, 31, 37, 0.59);}
-/* Botao DJ */
-#dj-button.is-locked .left,#dj-button.is-full .left,#vote .crowd-response.disabled .bottom {
-	background: rgba(34, 34, 36, 0.4);}
-#dj-button.is-quit .left, #dj-button.is-leave .left, #dj-button.is-wait .left, #dj-button.is-locked .left, #dj-button.is-full .left {
-	background: #8c2828;
-	border-radius: 3px;}
-#dj-button .left {
-	background: linear-gradient(hsl(0°, 66%, 48%), hsl(0°, 68%, 28%)) !important;
-	border-radius: 3px !important;}
-#dj-button.is-leave .left, #dj-button.is-quit .left {
-   background: linear-gradient(hsl(0°, 78%, 65%), hsl(0°, 64%, 23%)) !important;
-	border-radius: 3px !important;}
-#dj-button {
-	opacity: 0.7;
-	transition: all .3s ease-in;}
-#dj-button:hover {
-	opacity: 1;
-	transition: all 0.1s;}
-#video-only-dj:hover {
-    background: rgb(9, 9, 9);}
-#video-only-dj {    
-    background: #090909;}
-#vote .crowd-response {
-	background: rgba(255, 255, 255, 0);}
-#vote {
-	opacity: 0.7;
-	transition: all .3s ease-in;}
-#vote:hover {
-	opacity: 1;
-	transition: all 0.1s;}
-.row:hover {
-	background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(204, 155, 56, 0.27) 100%) !important;}
-#chat .mention .msg {
-	background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(41, 48, 124, 0.27) 100%);}
-#user-lists .list.room .user .icon-meh {
-	top: -1px !important;
-	right: 8px !important;
-	left: auto !important;}
-#user-lists .list.room .user .icon-grab {
-	right: 35px;}
-#footer-user .buttons .button .count, #user-menu .item .count, #user-friends .tab-menu button .count, #friends-button .request-count {
-    background: #c54040;
-}
-.emoji-glow img {
-    max-width: 40px !important;
-    max-height: 40px !important;
-}
-.chat-suggestion-item .value {    
-    margin-left: 20px;
-}
 
-#user-lists .group.host ~ .user, #user-lists .group.manager ~ .user, #user-lists .group.bouncer ~ .user, #user-lists .group.dj ~ .user {
-	color: #cf0000;
-}
 /* Descrição */
 
 #room-settings .general-settings .value {
