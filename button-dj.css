@@ -1,21 +1,31 @@
 /* Botao DJ */
 #dj-button.is-locked .left,#dj-button.is-full .left,#vote .crowd-response.disabled .bottom {
-	background: rgba(34, 34, 36, 0.4);}
+    background: #222224;
+}
 #dj-button.is-quit .left, #dj-button.is-leave .left, #dj-button.is-wait .left, #dj-button.is-locked .left, #dj-button.is-full .left {
-	background: #8c2828;
-	border-radius: 3px;}
-#dj-button .left {
-	background: linear-gradient(hsl(0°, 66%, 48%), hsl(0°, 68%, 28%)) !important;
-	border-radius: 3px !important;}
-#dj-button.is-leave .left, #dj-button.is-quit .left {
-   background: linear-gradient(hsl(0°, 78%, 65%), hsl(0°, 64%, 23%)) !important;
-	border-radius: 3px !important;}
+background: #121214;
+border-radius: 8px;
+border-left-width: 4px;
+}
+#dj-button.is-quit .left {
+border-left: 3px solid #f43f3f;
+}
+#dj-button.is-leave .left {
+border-left: 3px solid #f43f3f;
+}
+#dj-button.is-wait .left {
+border-left: 3px solid #00b5e6;
+}
+#dj-button.is-locked .left {
+border-left: 3px solid #734ba9;
+}
+#dj-button.is-full .left {
+border-left: 3px solid #CCCCCC;
+}
 #dj-button {
-	opacity: 0.7;
-	transition: all .3s ease-in;}
-#dj-button:hover {
-	opacity: 1;
-	transition: all 0.1s;}
+background: #222224;
+border-radius: 8px;
+}
 #video-only-dj:hover {
     background: rgb(9, 9, 9);}
 #video-only-dj {    
