@@ -13,10 +13,14 @@
   color: #ff69b4;
 }
 
-/* # */
-#chat [data-cid^="-"] .bdg {
-  background: url('http://s28.postimg.org/jq06oqo3d/XKubbdm.png') !important;
-  background-position: 0px 0px;
+/* EvilAnonymus2 */
+[data-cid^="33545233-"] .badge-box .bdg,
+#user-rollover.id-33545233 .badge-box .bdg {
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: url("http://i.imgur.com/lcO6Wge.gif");
 }
 
 /* # */
