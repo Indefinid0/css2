@@ -1328,6 +1328,18 @@ background-position: 9px 9px;
   color: #a33030;
 }
 
+#woot i {
+  background: url('https://imgur.com/2soxlom.png'); 
+}
+
+#meh i {
+  background: url('https://imgur.com/0W3RJ26.png');
+}
+
+#grab i {
+  background: url('https://imgur.com/H5Z4fGp.png');
+}
+
 #vote .crowd-response .top i {
   position: relative;
   display: inline-block;
