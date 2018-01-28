@@ -10,12 +10,6 @@
 
 */
 
-/* #woot:before {
-    content: url(https://cdn.radiant.dj/rcs/emotes/img/rosie.gif);
-    position: absolute;
-    top: 0px;
-    left: 265px;
-} */
 
 .votes-rs {
     top: -18px;
@@ -36,18 +30,18 @@
 }
 
 .icon-woot {
-    background-image: url(https://i.imgur.com/qeXiFij.png);
+    background-image: url();
     background-position: 0px 0px;
 }
 #woot.crowd-response.disabled .icon:before,
 #woot.crowd-response.selected .icon:before {
-    content: url(https://i.imgur.com/CmxWJdw.png);
+    content: url();
     position: absolute;
     right: 0px;
     padding: 0 1px;
 }
 #woot.crowd-response .icon:before {
-    content: url(https://i.imgur.com/qeXiFij.png);
+    content: url();
     position: absolute;
     right: 0px;
     padding: 0 0px;
@@ -114,13 +108,13 @@
 }
 #meh.crowd-response.disabled .icon:after,
 #meh.crowd-response.selected .icon:after {
-    content: url(https://i.imgur.com/DZxHN2F.png);
+    content: url();
     position: absolute;
     right: 0px;
     padding: 0 1px;
 }
 #meh.crowd-response .icon:after {
-    content: url(https://i.imgur.com/BzMZRWT.png);
+    content: url();
     position: absolute;
     right: 0px;
     padding: 0 1px;
