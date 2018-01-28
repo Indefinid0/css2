@@ -1335,19 +1335,6 @@ background-position: 9px 9px;
   color: #a33030;
 }
 
-
-#woot i {
-  background: url('http://s11.postimg.org/65quzp4kf/stiahnu_2.png'); 
-}
-
-#meh i {
-  background: url('http://s16.postimg.org/ckba5iacx/stiahnut_1.png');
-}
-
-#grab i {
-  background: url('http://s30.postimg.org/u6f3qy1nx/stiahnu_1.png');
-}
-
 #vote .crowd-response .top i {
   position: relative;
   display: inline-block;
