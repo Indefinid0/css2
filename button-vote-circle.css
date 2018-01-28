@@ -1,13 +1,8 @@
-
 /*
-
     Editado por: Philippe Henrique
-
     Atenção: Este código é livre, qualquer pessoa pode usá-lo.
     - Se possível não retirar os créditos :)
-
      WAM by Satskhi https://github.com/Satskhi
-
 */
 
 
@@ -35,7 +30,7 @@
 }
 #woot.crowd-response.disabled .icon:before,
 #woot.crowd-response.selected .icon:before {
-    content: url(https://rawgit.com/Indefinid0/css2/master/images/wootwhite.png);
+    content: url();
     position: absolute;
     right: 0px;
     padding: 0 1px;
@@ -76,7 +71,7 @@
     padding: 1px 1px;
 }
 #grab.crowd-response.disabled .icon:after {
-    content: url(https://rawgit.com/Indefinid0/css2/master/images/grabwhite.png);
+    content: url();
     position: absolute;
     right: 0px;
     padding: 1px 0px;
@@ -108,7 +103,7 @@
 }
 #meh.crowd-response.disabled .icon:after,
 #meh.crowd-response.selected .icon:after {
-    content: url(https://rawgit.com/Indefinid0/css2/master/images/mehwhite.png);
+    content: url();
     position: absolute;
     right: 0px;
     padding: 0 1px;
