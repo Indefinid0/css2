@@ -964,31 +964,6 @@ box-shadow: 0 0 0px rgba(10, 118, 158, 1) !important; }
   background: #222224; 
 }
 
-#meh.crowd-response.disabled.active .bottom {
-  background: linear-gradient(to bottom,rgba(102, 102, 102, 0) 0,rgba(255, 0, 0, 1) 100%); 
-}
-
-#grab.crowd-response.disabled.active .bottom {
-  background: linear-gradient(to bottom,rgba(102, 102, 102, 0) 0,rgb(212,175,55) 100%); 
-}
-
-#woot .bottom, 
-#woot.selected {
-  background: linear-gradient(to bottom,rgba(255, 255, 255, 0) 0px, #00C700 100%); 
-}
-
-#woot.crowd-response.disabled.active .bottom {
-  background: linear-gradient(to bottom,rgba(102, 102, 102, 0) 0,rgba(31, 255, 0, 0.75) 100%); 
-}
-
-#grab .bottom, #grab.selected {
-  background: linear-gradient(to bottom,rgba(255, 255, 255, 0) 0px, #eec81b 100%); 
-}
-
-#meh .bottom, #meh.selected {
-  background: linear-gradient(to bottom,rgba(255, 255, 255, 0) 0px, #F70000 100%); 
-}
-
 .pop-menu li:hover { 
   background: rgba(247, 0, 0, 0.2) !important; 
   box-shadow: 0 0 15px rgba(247, 0, 0, 0.2) !important; 
