@@ -30,18 +30,18 @@
 }
 
 .icon-woot {
-    background-image: url();
+    background-image: url(https://rawgit.com/Indefinid0/css2/master/images/wootgreen.png);
     background-position: 0px 0px;
 }
 #woot.crowd-response.disabled .icon:before,
 #woot.crowd-response.selected .icon:before {
-    content: url();
+    content: url(https://rawgit.com/Indefinid0/css2/master/images/wootwhite.png);
     position: absolute;
     right: 0px;
     padding: 0 1px;
 }
 #woot.crowd-response .icon:before {
-    content: url();
+    content: url(https://rawgit.com/Indefinid0/css2/master/images/wootgreen.png);
     position: absolute;
     right: 0px;
     padding: 0 0px;
@@ -70,13 +70,13 @@
   }
 }
 #grab.crowd-response:not(.selected) .icon:after {
-    content: url(https://rawgit.com/Satskhi/EDTRCS/master/images/Icons/Grab.png);
+    content: url(https://rawgit.com/Indefinid0/css2/master/images/grabroxo.png);
     position: absolute;
     right: 0px;
     padding: 1px 1px;
 }
 #grab.crowd-response.disabled .icon:after {
-    content: url(https://rawgit.com/Satskhi/EDTRCS/master/images/Icons/GrabW.png);
+    content: url(https://rawgit.com/Indefinid0/css2/master/images/grabwhite.png);
     position: absolute;
     right: 0px;
     padding: 1px 0px;
@@ -108,13 +108,13 @@
 }
 #meh.crowd-response.disabled .icon:after,
 #meh.crowd-response.selected .icon:after {
-    content: url();
+    content: url(https://rawgit.com/Indefinid0/css2/master/images/mehwhite.png);
     position: absolute;
     right: 0px;
     padding: 0 1px;
 }
 #meh.crowd-response .icon:after {
-    content: url();
+    content: url(https://rawgit.com/Indefinid0/css2/master/images/mehred.png);
     position: absolute;
     right: 0px;
     padding: 0 1px;
