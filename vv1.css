@@ -1057,45 +1057,43 @@ box-shadow: 0 0 0px rgba(10, 118, 158, 1) !important; }
 box-shadow: 0 0 10px rgba(10, 108, 158, 1) !important; }
 .media-list .row.now-playing { border-bottom: #24a2fc 2px solid !important; }
 
-/* troquei as cores até aqui */
-
 #toast-notifications .notification {
   box-shadow: none !important;
 }
 
 #toast-notifications .notification .left { 
   border-radius: 8px 0px 0px 8px !important; 
-  box-shadow: 0 0 5px rgba(122, 15, 0, 1) !important; 
-  background: linear-gradient(to bottom, #c11523 0, #a81f2a 100%) !important; 
+  box-shadow: 0 0 5px rgba(0, 77, 122, 1) !important; 
+  background: linear-gradient(to bottom, #158dc1 0, #1f7aa8 100%) !important; 
 }
 
 #toast-notifications .notification .right:hover, 
 #toast-notifications .notification .right { 
-  background: linear-gradient(to bottom, rgba(14, 14, 15, 0.81) 0%, rgb(157, 3, 9) 50%, rgba(14, 14, 15, 0.75) 100%) !important;
+  background: linear-gradient(to bottom, rgba(14, 14, 15, 0.81) 0%, rgb(31, 122, 168) 50%, rgba(14, 14, 15, 0.75) 100%) !important;
 }
 
 #chat .text a:hover, 
 a:focus, 
 .origem-menu-heading:focus {
   text-decoration: none;
-  color: #E51D2C;
+  color: #1cace5;
   -webkit-transition: 200ms linear 0s;
   -moz-transition: 200ms linear 0s;
   -o-transition: 200ms linear 0s;
   transition: 300ms linear 0,1s;
   outline: 0 none;
-  text-shadow: -1px 1px 8px #DA0111, 1px -1px 8px #DA0153;
+  text-shadow: -1px 1px 8px #01aeda, 1px -1px 8px #01aeda;
 }
 
 #origem-info:hover { 
   text-decoration: none; 
-  color: #E51D2C; 
+  color: #1cace5; 
   -webkit-transition: 200ms linear 0s; 
   -moz-transition: 200ms linear 0s; 
   -o-transition: 200ms linear 0s; 
   transition: 100ms linear 0s; 
   outline: 0 none; 
-  text-shadow: -1px 1px 8px #FF0013, 3px -1px 14px #FF0D16;
+  text-shadow: -1px 1px 8px #00bfff, 3px -1px 14px #00bfff;
 }
 
 a:-webkit-any-link { 
@@ -1154,16 +1152,16 @@ a:-webkit-any-link {
 }
 
 #tooltip .corner{ 
-  border-top: 10px solid #aa0000; 
-  border-left: 10px solid #aa0000; 
+  border-top: 10px solid #0077a9; 
+  border-left: 10px solid #0077a9; 
 }
 
 #tooltip.right .corner{ 
-  border-top:10px solid #aa0000; 
-  border-right:10px solid #aa0000 
+  border-top:10px solid #0077a9; 
+  border-right:10px solid #0077a9 
 }
 
-.origem-menu-heading, .origem-menu-submenu .origem-submenu-heading { color: #FF0A0A !important; }
+.origem-menu-heading, .origem-menu-submenu .origem-submenu-heading { color: #09b5ff !important; }
 
 .origem-menu-icon {
 background: url('https://i.imgur.com/3NetVjN.png');
@@ -1194,7 +1192,7 @@ background-position: 9px 9px;
 
 /*  Host */
 #user-panel:not(.is-none) .user > .icon-chat-host + .name,#user-lists .user > .icon-chat-host + .name,.message.from-host > .from,.emote.from-host > .from,.mention.from-host > .from {
-    color: #cf0000 !important;
+    color: #0090cf !important;
 }
 
 .icon-chat-host,.message.from-host > .icon,.emote.from-host > .icon,.mention.from-host > .icon {
@@ -1203,7 +1201,7 @@ background-position: 9px 9px;
 }
 
 .icon-chat-host ~ .text > .name,.icon-chat-host ~ .from,.icon-chat-host ~ span {
-    color: #cf0000!important;
+    color: #0090cf!important;
     
 }
 /* Host end*/
@@ -1276,7 +1274,7 @@ background-position: 9px 9px;
 .origem-color-manager,
 .origem-color-bouncer,
 .origem-color-dj{ 
-  color: #302424 !important;
+  color: #242c30 !important;
 }
 
 /* Eu não sei como chamar isso #2 */
@@ -1285,7 +1283,7 @@ background-position: 9px 9px;
 .app-right .friends .list-header .input-background,
 #user-friends .search,
 #filter-bar {
-  border: 2px solid #cf0000;
+  border: 2px solid #45aff7;
 }
 
 /* Círculo  */
@@ -1307,12 +1305,12 @@ background-position: 9px 9px;
 /* Isso é o que ele diz quando toca */
 #chat .mention.is-dj, 
 #chat .mention.is-staff {
-  background: linear-gradient(135deg,#8e2020 8%,#000000 13%,#0a0a0a 100%) !important;
+  background: linear-gradient(135deg,#20678e 8%,#000000 13%,#0a0a0a 100%) !important;
 }
 
 /* A cor marcada para a equipe quando alguém está entediado ou quer irritar e marcá-los */
 .is-dj .name, .is-staff .name {
-  color: #a33030;
+  color: #2f84a2;
 }
 
 /* Quebrando */
@@ -1326,7 +1324,7 @@ background-position: 9px 9px;
 #chat .from.staff .un,
 #chat .moderation, 
 #chat .moderation .from {
-  color: #a33030;
+  color: #2f7aa2;
 }
 
 #woot i {
@@ -1361,31 +1359,31 @@ background-position: 9px 9px;
 }
 
 #chat-input { 
-  border: 1px solid rgb(165, 0, 0);
+  border: 1px solid rgb(0, 121, 165);
 }
 
 #pm-close.new {
-  background: linear-gradient(to bottom,rgba(255, 255, 255, 0) 0px, #CB4646 100%)!important;
-  box-shadow: 0 0 10px 1px #E03A3A !important;
+  background: linear-gradient(to bottom,rgba(255, 255, 255, 0) 0px, #45a0cb 100%)!important;
+  box-shadow: 0 0 10px 1px #39b6e0 !important;
   border: 1px;
 }
 
 #pm-close.new:hover {
     background: transparent linear-gradient(to bottom, rgba(255, 255, 255, 0) 0px, #00C700 100%) repeat scroll 0% 0%;
-    box-shadow: 0px 0px 10px 1px #C70000 !important;
+    box-shadow: 0px 0px 10px 1px #00a9c7 !important;
     border: 1px none;
 }
 
 .pm-user-content.selected {
   border-radius: 5px;
-  box-shadow: inset 0 0 10px 2px hsl(0, 80%, 30%) !important;
-  background: linear-gradient(hsl(0, 100%, 30%), hsl(0, 100%, 20%)) !important;
+  box-shadow: inset 0 0 10px 2px hsl(190, 80%, 30%) !important;
+  background: linear-gradient(hsl(187, 100%, 30%), hsl(190, 100%, 20%)) !important;
 }
 
 .pm-msg-username {
   width: 90px;
-  background: linear-gradient(hsl(0, 100%, 40%), hsl(0, 100%, 30%)) !important;
-  box-shadow: inset 1px 2px 20px hsl(0, 50%, 60%) !important;
+  background: linear-gradient(hsl(189, 100%, 40%), hsl(188, 100%, 30%)) !important;
+  box-shadow: inset 1px 2px 20px hsl(188, 50%, 60%) !important;
   border-radius: 20px;
   padding: 3px;
   font-weight: bold;
@@ -1406,7 +1404,7 @@ background-position: 9px 9px;
 }
 
  .focused {
-   box-shadow: 0px 0px 0px 1px rgba(221, 0, 0, 0) inset !important
+   box-shadow: 0px 0px 0px 1px rgba(0, 184, 221, 0) inset !important
 }
  
  prvek {
@@ -1419,7 +1417,7 @@ background-position: 9px 9px;
 .app-right .friends .list-header .input-background, 
 #user-friends .search, 
 #filter-bar {
-    border: 2px solid #CF0000;
+    border: 2px solid #00accf;
 }
 
 #search-bar, #filter-bar {
@@ -1436,7 +1434,7 @@ background-position: 9px 9px;
 .app-right .friends .list-header .input-background, 
 #user-friends .search, 
 #filter-bar {
-    box-shadow: 0px 0px 0px 1px rgba(255, 0, 0, 0) inset !important;
+    box-shadow: 0px 0px 0px 1px rgba(0, 182, 255, 0) inset !important;
 }
 
 #chat .from.promoter .un {
@@ -1453,7 +1451,7 @@ i.icon.icon-chat-promoter, .is-promoter .name {
 #app-header {
 	background: linear-gradient(to bottom,rgba(255, 255, 255, 0.25) 0,rgba(0, 0, 0, 0.75) 100%);}
 #store-button {
-	background: linear-gradient(to bottom,#FF0000 0,#A00000 100%);}
+	background: linear-gradient(to bottom,#00aeff 0,#0060a0 100%);}
 #plug-dj {
 	background: linear-gradient(to bottom,#0268AC 0,#02225C 100%);}
 #plug-menu {
@@ -1463,7 +1461,7 @@ i.icon.icon-chat-promoter, .is-promoter .name {
 #settings {
 	background: rgba(10, 10, 10, 0.89) !important;}
 #user-lists .list .user:hover {
-	background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(255, 0, 194, 0.27) 100%) !important;}
+	background: linear-gradient(to right,rgba(118, 209, 255, 0) 0,rgba(255, 0, 194, 0.27) 100%) !important;}
 #waitlist .list .user {
 	background: linear-gradient(to right,rgba(205, 155, 55, 0.3) 0,rgba(37, 117, 185, 0) 100%) !important;}
 .app-right .friends {
@@ -1497,9 +1495,9 @@ i.icon.icon-chat-promoter, .is-promoter .name {
 	/*left: 4px;*/}
 #chat .emote .text {
 	font-style: italic;
-	color: #ce443f;}
+	color: #3eb1ce;}
 em {
-	color: #f4173b;}
+	color: #17c7f4;}
 #chat-messages .badge-box {    
     transition: 0.5s;
 }
